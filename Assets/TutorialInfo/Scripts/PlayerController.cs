@@ -1,5 +1,5 @@
 using UnityEngine;
-//Coder: Adi Sutton :)
+//Coder: Adi Sutton
 //Date: 9/11/2025
 //Description: This script will control the player vehicle
 
