@@ -1,3 +1,5 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 //Coder: Adi Sutton
 //Date: 9/11/2025
@@ -5,6 +7,8 @@ using UnityEngine;
 
 public class PlayerControl : MonoBehaviour
 {
+    public float speed = 5.0f;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -15,6 +19,6 @@ public class PlayerControl : MonoBehaviour
     void Update()
     {
         //We'll move the vehicle forward
-        transform.Translate(Vector3.forward * Time.deltaTime * 20);
+        transform.Translate(Vector3.forward * Time.deltaTime * speed);
     }
 }
