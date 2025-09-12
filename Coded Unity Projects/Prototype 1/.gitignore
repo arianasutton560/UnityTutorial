@@ -18,6 +18,9 @@ UserSettings/
 *.pidb
 *.booproj
 
+# VS Code Settings
+.vscode/
+
 # OS-specific
 .DS_Store
 Thumbs.db
