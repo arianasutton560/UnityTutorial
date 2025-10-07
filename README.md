@@ -1,2 +1,2 @@
-# StuckOnParchmanFarm
-This project is a 3D development escape game with Unity
+# Unity Tutorial
+This project is a series of Unity practice tutorials
